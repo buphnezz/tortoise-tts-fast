@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 
 import streamlit as st
-
+import biggan
 from tortoise.api import MODELS_DIR
 from tortoise.inference import (
     infer_on_texts,
